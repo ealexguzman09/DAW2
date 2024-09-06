@@ -1,0 +1,17 @@
+Servidor
+
+-WEB:	-Apache
+	-Nginx
+	-IIS
+
+-BBDD:	-MySQL
+	-MariaDB
+	-Mongo
+	-Postgre
+	-Microsoft SQL Server
+	-Oracle
+
+-FTP: Protocolo no seguro	
+-SSH: Protocolo seguro, Control remoto
+
+	
