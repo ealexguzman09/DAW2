@@ -1,10 +1,20 @@
-print("Hello, World!")
+#slicing
+mensaje = "Bienvenido al curso de Desarrollo de Aplicaciones Web"
+print(mensaje[23:33])
 
-import random
-print(random.randrange(1,10))
+#minusculas
+x = mensaje.lower()
+print(x)
 
-a = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
-print(a)
+#Mayusculas
+y = mensaje[0:10]
+print(y.upper())
+
+#Remplazar
+print(mensaje.replace("Web", "Python"))
+
+#Mostrar
+a = 0
+print(len(mensaje))
+
+
