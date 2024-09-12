@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Datos</h1>
+    <p id="edad1"></p>
+    
+    <script>
+        let añoActual = new Date().getFullYear();
+         
+        let edad = prompt("Introduce tu edad");
+        let añoNac = añoActual-edad;
+        console.log(añoNac)
+        for(let i=0;i<añoNac;i++)
+        
+        if(edad<18){
+        document.getElementById("edad1").innerHTML = "Es menor de edad";
+        }else{
+        document.getElementById("edad1").innerHTML = "Es mayor de edad";
+        }
+    </script> 
+</body>
+</html>
