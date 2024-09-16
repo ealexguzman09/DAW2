@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Calculando el coseno de los grados</h1>
+    <p id="num"></p>
+    <p id="cos"></p>
+
+    <script>
+        let numero = prompt("Ingresa el grado a calcular");
+        function gaR(numero) {
+        return numero * (Math.PI / 180);
+    }
+        let radianes = gaR(numero);
+        console.log(numero)
+        document.getElementById("num").innerHTML = "Los radianes del grado " + numero + " son: " + radianes + ".";
+        
+        let coseno = math.cos(radianes)
+        console.log(coseno)
+        document.getElementById("cos").innerHTML = "El coseno del grado " + numero + " es: " + coseno + ".";
+
+    </script>
+
+    <!-- Calcula el coseno de 60 grados-->
+
+    <!--Calcula la raiz cuadrada de num1.-->
+    
+    <!--Calcula la división entre num1 y num2 y muestralo con dos decimales.-->
+    
+    <!--¿Cuál es la diferencia entre Math.round, Math.floor, Math.ceil y Math.toFixed?-->
+</body>
+</html>
