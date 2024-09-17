@@ -17,19 +17,10 @@
         return numero * (Math.PI / 180);
     }
         let radianes = gaR(numero);
-        console.log(numero)
-        document.getElementById("num").innerHTML = "Los radianes del grado " + numero + " son: " + radianes + ".";
-        
-        let coseno = math.cos(radianes)
-        console.log(coseno)
-        document.getElementById("cos").innerHTML = "El coseno del grado " + numero + " es: " + coseno + ".";
+        document.getElementById("num").innerHTML = "Los radianes del grado " + numero + " son: " + radianes + ".";"<br>"
+        document.getElementById("cos").innerHTML = "El coseno del grado " + numero + " es: " + Math.cos(radianes) + ".";
 
     </script>
-
-    <!-- Calcula el coseno de 60 grados-->
-
-    <!--Calcula la raiz cuadrada de num1.-->
-    
     <!--Calcula la división entre num1 y num2 y muestralo con dos decimales.-->
     
     <!--¿Cuál es la diferencia entre Math.round, Math.floor, Math.ceil y Math.toFixed?-->
