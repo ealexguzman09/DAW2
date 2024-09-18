@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>¿Cual es el área de un circulo?</h1>
+    <p id="área"></p>
+
+    <script>
+        /*Crea una función que pida dos números como parámetro: valor inferior y valor superior.
+        La función devuelve un número aleatorio entre los dos números.*/
+        let radio = prompt("Escribe el radio a comprobar");
+        function calcularArea(radio){
+            let area = radio * (Math.PI * radio);
+            return area;
+        }
+        let respuesta = calcularArea(radio);
+        document.getElementById("área").innerHTML = "El área del circulo es: " + respuesta;
+    /* 
+    Crea una función que dado un número nos diga si es primo o  no.
+    Crea una función que dado un string nos diga si es palíndromo o no (capicúa).*/
+    </Script>
+
+</body>
+</html>
