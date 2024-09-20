@@ -1,4 +1,8 @@
 ssh "Usuario de conexion"@"IP a conectar"
+/var/www/html/ 
+systemctl 'accion a desarrollar' 'el servidor o servicio'
+ufw 'accion a desarrollar'-->"allow,status,deny,disable,enable"
+
 unzip archivo.zip
 zip archivo.zip 'que quiero comprimir'
 
@@ -65,7 +69,7 @@ d=directorio  - = nada
 drwx|rwx|rwx
 usuario|grupo|otros
 
-nano 'nombre del archivo'(es para editar archivos txt)
+bin 'nombre del archivo'(es para editar archivos txt)
 
 chown 'nombre del usuario' 'nombre del archivo'(sirve para cambiar de dueño el archivo)
 chown 'nombre del usuario'.'nombre del grupo' 'nombre del archivo'(sirve para cambiar de dueño el archivo y el grupo tambien)
