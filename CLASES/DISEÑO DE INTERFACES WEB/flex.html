@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica CSS Flexbox</title>
+    <link rel="stylesheet" href="flex.css"> 
+</head>
+<body>
+
+    <!-- Contenedor principal (Flex Container) -->
+    <div class="container">
+        <!-- Cabecera -->
+        <div class="header">
+            <h1>Mi Página Flexbox</h1>
+        </div>
+
+        <!-- Contenedor principal de dos columnas -->
+        <div class="main-layout">
+            <!-- Menú lateral izquierdo -->
+            <div class="sidebar">
+                <a href="#">Inicio</a>
+                <a href="#">Acerca de</a>
+                <a href="#">Servicios</a>
+                <a href="#">Contacto</a>
+            </div>
+
+            <!-- Área de contenido principal a la derecha -->
+            <main class="main-content">
+                <section class="content">
+                    <h2>Sección 1</h2>
+                    <p>Este es un ejemplo de una sección de contenido. Aquí puedes incluir cualquier texto o imagen relacionada.</p>
+                </section>
+                <section class="content">
+                    <h2>Sección 2</h2>
+                    <p>Otro bloque de contenido que muestra cómo se comportan los flex items en un contenedor flexible.</p>
+                </section>
+                <section class="content">
+                    <h2>Sección 3</h2>
+                    <p>Flexbox es una herramienta poderosa para crear diseños responsivos de manera sencilla y eficiente.</p>
+                </section>
+            </main>
+        </div>
+
+        <!-- Pie de página -->
+        <footer class="footer">
+            <p>&copy; 2024 Mi Página Flexbox. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
