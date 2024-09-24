@@ -10,19 +10,38 @@
         //Array
         let cars = ["Saab", "Volvo", "BMW"];
 
-    //Inserta dos elementos al final en un array.
-    cars.push("Toyota","Nissan")
-    console.log(cars)
-    //Inserta dos elementos al comienzo en un array.
-    cars.unshift("Ferrari","Subaru")
-    console.log(cars)
-    //Elimina dos elementos al final de un array.
-    cars.pop(cars.length-1)
-    cars.pop(cars.length-1)
-    console.log(cars)
-    //Elimina dos elementos al comienzo de un array.
-    cars.shift()
-    console.log(cars)
+        //Inserta dos elementos al final en un array.
+        cars.push("Toyota","Nissan");
+        console.log(cars);
+        //Inserta dos elementos al comienzo en un array.
+        cars.unshift("Ferrari","Subaru");
+        console.log(cars);
+        //Elimina dos elementos al final de un array.
+        cars.splice(-2);
+        console.log(cars);
+        //Elimina dos elementos al comienzo de un array.
+        cars.splice(0,2);
+        console.log(cars);
+
+        //Array 2
+        const numeros = [12,54,87,23,45,16,27,246,99,3];
+
+        /*Dado un array de 10 elementos, crea otros dos arrays: 
+        uno con los primeros 5 elementos y el otro con los 5 últimos.*/
+        const mitad1 = numeros.splice(0,(numeros.length/2));
+        console.log("Mitad 1 = ",mitad1);
+        const mitad2 = numeros.splice(0,numeros.length);
+        console.log("Mitad 2 = ",mitad2);
+        /*Suma de elementos de un array: Escribe una función que sume 
+        todos los elementos de un array de números.*/
+        function myFunction(p1, p2) {
+        return p1 * p2;
+        }
+        
+        numeros.sort((a,b)=>a-b)
+        //Buscar mayor
+        math.max(...numeros);
+        console.log(numeros);
     </script>
 </body>
 </html>
