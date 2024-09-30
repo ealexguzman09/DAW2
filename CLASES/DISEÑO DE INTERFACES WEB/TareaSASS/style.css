@@ -1,0 +1,28 @@
+/* Mapa de colores */
+body {
+  background-color: #4A6D80;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.header {
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+.services {
+  grid-column: 1;
+  grid-row: 2/3;
+}
+
+.gallery {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  display: grid;
+}
+
+.footer {
+  grid-column: 1/4;
+  grid-row: 4;
+}/*# sourceMappingURL=style.css.map */

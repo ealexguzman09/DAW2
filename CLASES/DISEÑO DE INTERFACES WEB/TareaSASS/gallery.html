@@ -15,13 +15,23 @@
             <h1 class="header__title">KirolariBuruz</h1>
             <nav class="header__nav">
                 <ul>
+                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="service.html">Servicios</a></li>
-                    <li><a href="gallery.html">Galería</a></li>
                     <li><a href="about.html">Acerca de nosotros</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <!-- Sección Principal "Sobre Mí" -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <p>Hola.</p>
+            <img src="https://via.placeholder.com/300" alt="Imagen Sobre Mí" class="about__image">
+        </div>
+    </section>
+
     <!-- Sección de Servicios -->
     <section id="services" class="services">
         <div class="container">
@@ -75,6 +85,29 @@
             </div>
         </div>
     </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="#" class="contact__form">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí"></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
