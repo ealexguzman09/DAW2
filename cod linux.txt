@@ -1,4 +1,6 @@
 ssh "Usuario de conexion"@"IP a conectar"
+apt cache search php|more
+archivos tgz = tar xvf
 /var/www/html/ 
 systemctl 'accion a desarrollar' 'el servidor o servicio'
 ufw 'accion a desarrollar'-->"allow,status,deny,disable,enable"
