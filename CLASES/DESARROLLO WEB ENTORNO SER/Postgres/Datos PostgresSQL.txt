@@ -1,0 +1,4 @@
+Datos PostgresSQL
+
+Puerto: 5432
+contraseña: erick
