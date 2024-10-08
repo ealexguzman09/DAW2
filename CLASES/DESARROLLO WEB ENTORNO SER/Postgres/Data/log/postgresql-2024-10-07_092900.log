@@ -3,3 +3,5 @@
 2024-10-07 09:34:05.294 CEST [5264] LOG:  checkpoint completo: escritos 45 búfers (0.3%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=4.547 s, sync=0.014 s, total=4.572 s; archivos sincronizados=11, más largo=0.002 s, promedio=0.002 s; distancia=269 kB, estimación=269 kB; lsn=0/15B13A0, lsn de redo=0/15B1348
 2024-10-07 09:59:04.854 CEST [5264] LOG:  empezando checkpoint: time
 2024-10-07 10:00:50.628 CEST [5264] LOG:  checkpoint completo: escritos 973 búfers (5.9%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=105.468 s, sync=0.297 s, total=105.775 s; archivos sincronizados=301, más largo=0.048 s, promedio=0.001 s; distancia=4542 kB, estimación=4542 kB; lsn=0/1A21C48, lsn de redo=0/1A20E28
+2024-10-07 13:55:56.209 CEST [6516] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-07 13:55:56.209 CEST [4684] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
