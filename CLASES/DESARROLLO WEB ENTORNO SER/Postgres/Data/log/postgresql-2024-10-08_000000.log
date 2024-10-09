@@ -1,0 +1,36 @@
+2024-10-09 10:14:16.126 CEST [5264] LOG:  empezando checkpoint: time
+2024-10-09 10:14:16.577 CEST [5264] LOG:  checkpoint completo: escritos 5 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.429 s, sync=0.011 s, total=0.452 s; archivos sincronizados=5, más largo=0.004 s, promedio=0.003 s; distancia=4 kB, estimación=4088 kB; lsn=0/1A22060, lsn de redo=0/1A21FF0
+2024-10-09 10:27:38.907 CEST [5264] LOG:  empezando checkpoint: time
+2024-10-09 10:27:39.029 CEST [5264] LOG:  checkpoint completo: escritos 2 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.099 s, sync=0.007 s, total=0.122 s; archivos sincronizados=2, más largo=0.005 s, promedio=0.003 s; distancia=3 kB, estimación=3680 kB; lsn=0/1A22CA8, lsn de redo=0/1A22C50
+2024-10-09 11:29:44.777 CEST [2432] ERROR:  permiso denegado al esquema public en carÃ¡cter 31
+2024-10-09 11:29:44.777 CEST [2432] SENTENCIA:  
+	                CREATE TABLE tabla_postgresql (
+	                    page_id SERIAL PRIMARY KEY,
+	                    page_name VARCHAR(255) NOT NULL
+	                )
+	                
+2024-10-09 11:29:44.781 CEST [2432] ERROR:  no existe la relaciÃ³n Â«tabla_postgresqlÂ» en carÃ¡cter 13
+2024-10-09 11:29:44.781 CEST [2432] SENTENCIA:  INSERT INTO tabla_postgresql ( page_name ) VALUES ( 'pÃ¡gina 1' )
+2024-10-09 11:31:16.815 CEST [10588] ERROR:  permiso denegado al esquema public en carÃ¡cter 31
+2024-10-09 11:31:16.815 CEST [10588] SENTENCIA:  
+	                CREATE TABLE tabla_postgresql (
+	                    page_id SERIAL PRIMARY KEY,
+	                    page_name VARCHAR(255) NOT NULL
+	                )
+	                
+2024-10-09 11:31:16.816 CEST [10588] ERROR:  no existe la relaciÃ³n Â«tabla_postgresqlÂ» en carÃ¡cter 13
+2024-10-09 11:31:16.816 CEST [10588] SENTENCIA:  INSERT INTO tabla_postgresql ( page_name ) VALUES ( 'pÃ¡gina 1' )
+2024-10-09 11:32:41.302 CEST [5264] LOG:  empezando checkpoint: time
+2024-10-09 11:32:41.532 CEST [5264] LOG:  checkpoint completo: escritos 2 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.211 s, sync=0.009 s, total=0.231 s; archivos sincronizados=1, más largo=0.009 s, promedio=0.009 s; distancia=10 kB, estimación=3313 kB; lsn=0/1A25680, lsn de redo=0/1A25628
+2024-10-09 11:34:41.183 CEST [11992] ERROR:  permiso denegado al esquema public en carÃ¡cter 31
+2024-10-09 11:34:41.183 CEST [11992] SENTENCIA:  
+	                CREATE TABLE tabla_postgresql (
+	                    page_id SERIAL PRIMARY KEY,
+	                    page_name VARCHAR(255) NOT NULL
+	                )
+	                
+2024-10-09 11:34:41.184 CEST [11992] ERROR:  no existe la relaciÃ³n Â«tabla_postgresqlÂ» en carÃ¡cter 13
+2024-10-09 11:34:41.184 CEST [11992] SENTENCIA:  INSERT INTO tabla_postgresql ( page_name ) VALUES ( 'pÃ¡gina 1' )
+2024-10-09 11:37:41.524 CEST [5264] LOG:  empezando checkpoint: time
+2024-10-09 11:37:47.538 CEST [5264] LOG:  checkpoint completo: escritos 57 búfers (0.3%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=5.955 s, sync=0.046 s, total=6.015 s; archivos sincronizados=43, más largo=0.004 s, promedio=0.002 s; distancia=150 kB, estimación=2997 kB; lsn=0/1A4B1E8, lsn de redo=0/1A4B190
+2024-10-09 11:38:29.495 CEST [11796] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
