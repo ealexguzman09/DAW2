@@ -1,0 +1,4 @@
+2024-10-09 14:01:32.220 CEST [4912] LOG:  el sistema de bases de datos fue apagado en 2024-10-09 14:00:53 CEST
+2024-10-09 14:02:29.990 CEST [4884] LOG:  apagando
+2024-10-09 14:02:29.992 CEST [4884] LOG:  empezando checkpoint: shutdown immediate
+2024-10-09 14:02:30.007 CEST [4884] LOG:  checkpoint completo: escritos 3 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.003 s, sync=0.002 s, total=0.017 s; archivos sincronizados=2, más largo=0.002 s, promedio=0.001 s; distancia=0 kB, estimación=0 kB; lsn=0/1A70140, lsn de redo=0/1A70140

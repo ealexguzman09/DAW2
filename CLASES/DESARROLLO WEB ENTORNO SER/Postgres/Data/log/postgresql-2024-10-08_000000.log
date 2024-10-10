@@ -41,3 +41,7 @@
 2024-10-09 13:10:24.264 CEST [4544] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
 2024-10-09 13:10:24.265 CEST [5840] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
 2024-10-09 13:10:24.267 CEST [5216] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-09 14:00:53.062 CEST [3840] ERROR:  cancelando la sentencia debido a una petición del usuario
+2024-10-09 14:00:53.068 CEST [5264] LOG:  apagando
+2024-10-09 14:00:53.070 CEST [5264] LOG:  empezando checkpoint: shutdown immediate
+2024-10-09 14:00:53.079 CEST [5264] LOG:  checkpoint completo: escritos 0 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.001 s, sync=0.001 s, total=0.011 s; archivos sincronizados=0, más largo=0.000 s, promedio=0.000 s; distancia=0 kB, estimación=2196 kB; lsn=0/1A70090, lsn de redo=0/1A70090

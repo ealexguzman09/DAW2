@@ -1,0 +1,13 @@
+2024-10-10 12:21:46.976 CEST [7872] ERROR:  la relaciÃ³n Â«tabla_postgresqlÂ» ya existe
+2024-10-10 12:21:46.976 CEST [7872] SENTENCIA:  
+	                CREATE TABLE tabla_postgresql (
+	                    page_id SERIAL PRIMARY KEY,
+	                    page_name VARCHAR(255) NOT NULL
+	                )
+	                
+2024-10-10 12:23:16.330 CEST [5032] LOG:  empezando checkpoint: time
+2024-10-10 12:23:18.285 CEST [5032] LOG:  checkpoint completo: escritos 19 búfers (0.1%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=1.918 s, sync=0.026 s, total=1.955 s; archivos sincronizados=20, más largo=0.004 s, promedio=0.002 s; distancia=51 kB, estimación=51 kB; lsn=0/1A7D070, lsn de redo=0/1A7D018
+2024-10-10 12:33:16.289 CEST [5032] LOG:  empezando checkpoint: time
+2024-10-10 12:33:21.111 CEST [5032] LOG:  checkpoint completo: escritos 46 búfers (0.3%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=4.768 s, sync=0.045 s, total=4.823 s; archivos sincronizados=39, más largo=0.005 s, promedio=0.002 s; distancia=156 kB, estimación=156 kB; lsn=0/1AA41B0, lsn de redo=0/1AA4158
+2024-10-10 13:56:38.187 CEST [11236] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-10 13:56:38.188 CEST [9260] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
