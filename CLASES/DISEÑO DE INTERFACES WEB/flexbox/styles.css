@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+ 
+/* Flex Container principal 
+La clase 'container' tiene los items 'header' (con 'Mi página Flexbox'), 
+'<div class="main-layout">' (con menú izquierdo y área de secciones)
+y 'footer' -> los ponemos en columna
+*/
+.container {
+    display: flex;
+    flex-direction: column;
+    /*min-height: 100vh;*/
+}
+
+/* Cabecera */
+.header {
+    background-color: #006400;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor principal de dos columnas 
+'.main-layout' es un item de '.container', que a su vez tiene dos items 
+que quiero poner en dos columnas (.sidebar y .main-content), por lo que
+lo pongo como 'display: flex;'. Ahora es un item 'hijo' de un bloque flex,
+y a su vez es un bloque flex -> Le puedo aplicar los atributos de 
+'flex-container' y de 'flex-items.
+*/
+.main-layout {
+    display: flex;
+    /* flex-direction: row;  una fila con 2 items/columnas (en este caso). 
+    El valor por defecto es 'row', no hace falta ponerlo
+    */    
+}
+
+/* Menú lateral (Flex Item) 
+A su vez tiene tres items internos, ponemos 'display: flex'
+para que los hijos se comporten como 'items flex'.
+*/
+.sidebar {
+    display: flex;
+    flex: 1;
+    /* a '.main-content' le doy 'flex: 5' para que el sidebar ocupe 1/6  */    
+    flex-direction: column; /*  para que ponga los items en una columna */
+    background-color: #2f4f4f; /* Color diferente al footer */
+    padding: 20px;
+    color: white;
+    /*width: 150px;  Haciendo el menú más estrecho */
+}
+
+/* Estilos para enlaces del menú */
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+/* Área principal (Flex Item) */
+.main-content {
+    display: flex;
+    flex-direction: column; /* sus items se colocan en columna */
+    flex: 5; /* afecta a '.main-content', no a sus items internos */
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Secciones dentro del área principal */
+.content {
+    background-color: #e0f7fa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;    
+}
+
+/* Pie de página */
+.footer {
+    background-color: #333; /* Color diferente al menú lateral */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Flex Responsive */
+@media (max-width: 768px) {
+    .main-layout {
+        flex-direction: column;
+    }
+
+    .sidebar {        
+        flex-direction: row;
+        justify-content: space-around;
+    }    
+}
