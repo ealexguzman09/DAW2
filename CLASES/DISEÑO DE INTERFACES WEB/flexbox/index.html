@@ -2,10 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel = "icon" href= "/Imagenes/icono.png"></link> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica CSS Flexbox</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <title>El Clima</title>
+    <meta name=" description" content= "Página que te muestra la temperatura actual." >
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+ 
 </head>
 <body>
 
@@ -13,13 +17,16 @@
     <div class="container">
         <!-- Cabecera -->
         <div class="header">
-            <h1>Mi Página Flexbox</h1>
+            <div class="logo_header">Mi Página Flexbox</div>
+            <div class="barra_busqueda"> aqui ira la barra de busqueda</div>
+
         </div>
 
         <!-- Contenedor principal de dos columnas -->
         <div class="main-layout">
             <!-- Menú lateral izquierdo -->
             <div class="sidebar">
+                <a class="menu_tittle" href="#">Menu</a>
                 <a href="#">Inicio</a>
                 <a href="#">Acerca de</a>
                 <a href="#">Servicios</a>
@@ -28,25 +35,20 @@
 
             <!-- Área de contenido principal a la derecha -->
             <main class="main-content">
-                <section class="content">
-                    <h2>Sección 1</h2>
-                    <p>Este es un ejemplo de una sección de contenido. Aquí puedes incluir cualquier texto o imagen relacionada.</p>
-                </section>
-                <section class="content">
-                    <h2>Sección 2</h2>
-                    <p>Otro bloque de contenido que muestra cómo se comportan los flex items en un contenedor flexible.</p>
-                </section>
-                <section class="content">
-                    <h2>Sección 3</h2>
-                    <p>Flexbox es una herramienta poderosa para crear diseños responsivos de manera sencilla y eficiente.</p>
-                </section>
+                <div class="icono_clima">
+                    <i class="fa-solid fa-sun"></i>
+                    <i class="fa-solid fa-bolt"></i>
+                    <i class="fa-solid fa-meteor"></i>
+                </div>
+                <div class="informacion_clima">hola</div>
             </main>
         </div>
 
         <!-- Pie de página -->
         <footer class="footer">
-            <p>&copy; 2024 Mi Página Flexbox. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Mi Página pruebas. Todos los derechos reservados.</p>
         </footer>
+        <script src="script.js"></script>
     </div>
 
 </body>
