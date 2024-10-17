@@ -1,0 +1,10 @@
+2024-10-17 09:18:58.660 CEST [3396] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-10-10 12:33:21 CEST
+2024-10-17 09:18:59.309 CEST [3396] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-10-17 09:18:59.315 CEST [3396] LOG:  redo comienza en 0/1AA4158
+2024-10-17 09:18:59.315 CEST [3396] LOG:  largo de registro no válido en 0/1AA4260: se esperaba al menos 24, se obtuvo 0
+2024-10-17 09:18:59.315 CEST [3396] LOG:  redo listo en 0/1AA4228 utilización del sistema: CPU: usuario: 0.00 s, sistema: 0.00 s, transcurrido: 0.00 s
+2024-10-17 09:18:59.320 CEST [5104] LOG:  empezando checkpoint: end-of-recovery immediate wait
+2024-10-17 09:18:59.331 CEST [5104] LOG:  checkpoint completo: escritos 3 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.002 s, sync=0.002 s, total=0.014 s; archivos sincronizados=2, más largo=0.002 s, promedio=0.001 s; distancia=0 kB, estimación=0 kB; lsn=0/1AA4260, lsn de redo=0/1AA4260
+2024-10-17 09:25:17.912 CEST [5104] LOG:  apagando
+2024-10-17 09:25:17.915 CEST [5104] LOG:  empezando checkpoint: shutdown immediate
+2024-10-17 09:25:17.924 CEST [5104] LOG:  checkpoint completo: escritos 0 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.001 s, sync=0.001 s, total=0.012 s; archivos sincronizados=0, más largo=0.000 s, promedio=0.000 s; distancia=0 kB, estimación=0 kB; lsn=0/1AA4310, lsn de redo=0/1AA4310

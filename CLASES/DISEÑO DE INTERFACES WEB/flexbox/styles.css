@@ -55,16 +55,7 @@ body {
     grid-column: 1;
     grid-row: 1;
 }
-.icono_clima i{
-    width: 50px;
-    height: 50px;
-}
-.informacion_clima{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-   
-}
+
 .footer {
     background-color: #333;
     color: white;

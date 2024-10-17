@@ -1,3 +1,11 @@
+create user 'wordpress'@'localhost' identified by 'bBmVQDU80DhDhWMBEPrJwJ1V5EySZx';
+create database wordpress;
+grant all on wordpress.* to 'wordpress'@'localhost';
+
+erickGuzman
+bBmVQDU80DhDhWMBEPrJwJ1V5EySZx
+
+
 ssh "Usuario de conexion"@"IP a conectar"
 apt cache search php|more
 archivos tgz = tar xvf
