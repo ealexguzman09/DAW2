@@ -5,3 +5,8 @@
 2024-10-17 10:05:23.117 CEST [5032] LOG:  redo listo en 0/1AA4490 utilización del sistema: CPU: usuario: 0.00 s, sistema: 0.00 s, transcurrido: 0.00 s
 2024-10-17 10:05:23.123 CEST [5016] LOG:  empezando checkpoint: end-of-recovery immediate wait
 2024-10-17 10:05:23.135 CEST [5016] LOG:  checkpoint completo: escritos 3 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.002 s, sync=0.003 s, total=0.016 s; archivos sincronizados=2, más largo=0.002 s, promedio=0.002 s; distancia=0 kB, estimación=0 kB; lsn=0/1AA44C8, lsn de redo=0/1AA44C8
+2024-10-17 16:14:23.248 CEST [4236] ERROR:  cancelando la sentencia debido a una petición del usuario
+2024-10-17 16:14:23.248 CEST [1028] ERROR:  cancelando la sentencia debido a una petición del usuario
+2024-10-17 16:14:23.252 CEST [5016] LOG:  apagando
+2024-10-17 16:14:23.257 CEST [5016] LOG:  empezando checkpoint: shutdown immediate
+2024-10-17 16:14:23.280 CEST [5016] LOG:  checkpoint completo: escritos 0 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.001 s, sync=0.001 s, total=0.028 s; archivos sincronizados=0, más largo=0.000 s, promedio=0.000 s; distancia=0 kB, estimación=0 kB; lsn=0/1AA4578, lsn de redo=0/1AA4578

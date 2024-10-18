@@ -8,7 +8,6 @@
     <title>El Clima</title>
     <meta name=" description" content= "Página que te muestra la temperatura actual." >
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
  
 </head>
 <body>
@@ -25,7 +24,6 @@
         <div class="main-layout">
             <!-- Menú lateral izquierdo -->
             <div class="sidebar">
-                <a class="menu_tittle" href="#">Menu</a>
                 <a href="#">Inicio</a>
                 <a href="#">Acerca de</a>
                 <a href="#">Servicios</a>
@@ -34,10 +32,16 @@
 
             <!-- Área de contenido principal a la derecha -->
             <main class="main-content">
-                <div class="icono_clima" id="cod"></div>
-                <div class="informacion_clima">
-                    <h2 id="JSON"></h2>
-                </div>
+                    <div class="weather">
+                        <h1>Datos Meteorológicos en San Sebastián</h1>
+                        <div id="tempAct"></div>
+                        <div id="tempMax"></div>
+                        <div id="tempMin"></div>
+                        <div id="sensTermica"></div>
+                        <div id="DiaONoche"></div>
+                        <div id="imagen_icon"></div>
+                    </div>
+                    
             </main>
         </div>
         <!-- Pie de página -->
