@@ -1,0 +1,51 @@
+2024-10-28 09:52:05.220 CET [8740] ERROR:  no existe la relaciÃ³n Â«productosÂ» en carÃ¡cter 13
+2024-10-28 09:52:05.220 CET [8740] SENTENCIA:  INSERT INTO productos (producto, modelo, precio) VALUES ('Producto1', 'Modelo1', 86) RETURNING productos.id
+2024-10-28 09:54:48.306 CET [7932] ERROR:  no existe la relaciÃ³n Â«productosÂ» en carÃ¡cter 13
+2024-10-28 09:54:48.306 CET [7932] SENTENCIA:  INSERT INTO productos (producto, modelo, precio) VALUES ('Producto1', 'Modelo1', 86) RETURNING productos.id
+2024-10-28 09:54:51.791 CET [4884] LOG:  empezando checkpoint: time
+2024-10-28 09:54:53.615 CET [4884] LOG:  checkpoint completo: escritos 18 búfers (0.1%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=1.798 s, sync=0.014 s, total=1.824 s; archivos sincronizados=11, más largo=0.003 s, promedio=0.002 s; distancia=99 kB, estimación=99 kB; lsn=0/1ABD378, lsn de redo=0/1ABD320
+2024-10-28 09:57:44.416 CET [10244] ERROR:  no existe la relaciÃ³n Â«productosÂ» en carÃ¡cter 13
+2024-10-28 09:57:44.416 CET [10244] SENTENCIA:  INSERT INTO productos (producto, modelo, precio) VALUES ('Producto1', 'Modelo1', 86) RETURNING productos.id
+2024-10-28 09:58:36.587 CET [1072] ERROR:  no existe la relaciÃ³n Â«productosÂ» en carÃ¡cter 13
+2024-10-28 09:58:36.587 CET [1072] SENTENCIA:  INSERT INTO productos (producto, modelo, precio) VALUES ('Producto1', 'Modelo1', 86) RETURNING productos.id
+2024-10-28 10:01:00.341 CET [5824] ERROR:  no existe la relaciÃ³n Â«productosÂ» en carÃ¡cter 13
+2024-10-28 10:01:00.341 CET [5824] SENTENCIA:  INSERT INTO productos (producto, modelo, precio) VALUES ('Producto1', 'Modelo1', 86) RETURNING productos.id
+2024-10-28 10:08:04.780 CET [11236] ERROR:  no existe la relaciÃ³n Â«productosÂ» en carÃ¡cter 13
+2024-10-28 10:08:04.780 CET [11236] SENTENCIA:  INSERT INTO productos (producto, modelo, precio) VALUES ('Producto1', 'Modelo1', 86) RETURNING productos.id
+2024-10-28 10:20:25.177 CET [4764] ERROR:  no existe la relaciÃ³n Â«productosÂ» en carÃ¡cter 13
+2024-10-28 10:20:25.177 CET [4764] SENTENCIA:  INSERT INTO productos (producto, modelo, precio) VALUES ('Producto4', 'Modelo4', 99.55) RETURNING productos.id
+2024-10-28 10:22:32.292 CET [8836] ERROR:  no existe la relaciÃ³n Â«productosÂ» en carÃ¡cter 13
+2024-10-28 10:22:32.292 CET [8836] SENTENCIA:  INSERT INTO productos (producto, modelo, precio) VALUES ('Producto4', 'Modelo4', 99.55) RETURNING productos.id
+2024-10-28 10:24:48.657 CET [11540] ERROR:  no existe la relaciÃ³n Â«productosÂ» en carÃ¡cter 13
+2024-10-28 10:24:48.657 CET [11540] SENTENCIA:  INSERT INTO productos (producto, modelo, precio) VALUES ('Producto4', 'Modelo4', 99.55) RETURNING productos.id
+2024-10-28 10:29:51.839 CET [4884] LOG:  empezando checkpoint: time
+2024-10-28 10:29:56.155 CET [4884] LOG:  checkpoint completo: escritos 40 búfers (0.2%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=4.273 s, sync=0.035 s, total=4.317 s; archivos sincronizados=37, más largo=0.003 s, promedio=0.001 s; distancia=146 kB, estimación=146 kB; lsn=0/1AE1C90, lsn de redo=0/1AE1C38
+2024-10-28 10:44:51.225 CET [4884] LOG:  empezando checkpoint: time
+2024-10-28 10:44:51.563 CET [4884] LOG:  checkpoint completo: escritos 4 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.323 s, sync=0.006 s, total=0.339 s; archivos sincronizados=4, más largo=0.003 s, promedio=0.002 s; distancia=1 kB, estimación=131 kB; lsn=0/1AE2148, lsn de redo=0/1AE20F0
+2024-10-28 13:45:41.777 CET [11380] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-28 13:45:48.030 CET [1076] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-28 13:45:48.030 CET [10096] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-28 13:45:48.030 CET [13176] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-28 13:45:48.032 CET [3648] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-28 13:45:48.032 CET [3856] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-29 09:37:46.566 CET [4884] LOG:  empezando checkpoint: time
+2024-10-29 09:37:46.890 CET [4884] LOG:  checkpoint completo: escritos 4 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.310 s, sync=0.005 s, total=0.325 s; archivos sincronizados=4, más largo=0.002 s, promedio=0.002 s; distancia=1 kB, estimación=118 kB; lsn=0/1AE2568, lsn de redo=0/1AE2510
+2024-10-29 09:49:25.004 CET [4492] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-29 09:50:22.813 CET [12820] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-29 10:32:46.948 CET [4884] LOG:  empezando checkpoint: time
+2024-10-29 10:34:31.962 CET [4884] LOG:  checkpoint completo: escritos 978 búfers (6.0%); 1 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=104.714 s, sync=0.237 s, total=105.015 s; archivos sincronizados=306, más largo=0.003 s, promedio=0.001 s; distancia=4548 kB, estimación=4548 kB; lsn=0/1F53908, lsn de redo=0/1F53878
+2024-10-29 13:45:55.979 CET [8812] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-29 13:45:55.979 CET [6416] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-29 13:45:55.979 CET [4668] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-29 13:45:55.980 CET [12416] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-29 13:45:55.981 CET [7868] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-10-30 13:01:13.580 CET [4884] LOG:  empezando checkpoint: time
+2024-10-30 13:01:14.012 CET [4884] LOG:  checkpoint completo: escritos 4 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.416 s, sync=0.006 s, total=0.432 s; archivos sincronizados=4, más largo=0.002 s, promedio=0.002 s; distancia=6 kB, estimación=4094 kB; lsn=0/1F55168, lsn de redo=0/1F55110
+2024-10-30 13:06:13.019 CET [4884] LOG:  empezando checkpoint: time
+2024-10-30 13:06:13.247 CET [4884] LOG:  checkpoint completo: escritos 3 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.213 s, sync=0.005 s, total=0.228 s; archivos sincronizados=3, más largo=0.003 s, promedio=0.002 s; distancia=1 kB, estimación=3685 kB; lsn=0/1F55698, lsn de redo=0/1F55608
+2024-10-30 13:11:13.251 CET [4884] LOG:  empezando checkpoint: time
+2024-10-30 13:11:17.866 CET [4884] LOG:  checkpoint completo: escritos 42 búfers (0.3%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=4.570 s, sync=0.035 s, total=4.615 s; archivos sincronizados=36, más largo=0.002 s, promedio=0.001 s; distancia=183 kB, estimación=3335 kB; lsn=0/1F83318, lsn de redo=0/1F832C0
+2024-10-30 13:21:13.885 CET [4884] LOG:  empezando checkpoint: time
+2024-10-30 13:21:14.222 CET [4884] LOG:  checkpoint completo: escritos 4 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.322 s, sync=0.006 s, total=0.338 s; archivos sincronizados=4, más largo=0.002 s, promedio=0.002 s; distancia=5 kB, estimación=3002 kB; lsn=0/1F84970, lsn de redo=0/1F84918
+2024-10-30 13:26:13.223 CET [4884] LOG:  empezando checkpoint: time
+2024-10-30 13:26:18.011 CET [4884] LOG:  checkpoint completo: escritos 46 búfers (0.3%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=4.739 s, sync=0.040 s, total=4.788 s; archivos sincronizados=40, más largo=0.002 s, promedio=0.001 s; distancia=213 kB, estimación=2723 kB; lsn=0/1FB9F68, lsn de redo=0/1FB9ED8

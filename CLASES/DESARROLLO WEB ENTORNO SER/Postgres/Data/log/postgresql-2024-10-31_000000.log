@@ -1,0 +1,11 @@
+2024-11-13 09:13:05.769 CET [12544] ERROR:  no se puede eliminar el rol Â«miusuarioÂ» porque otros objetos dependen de Ã©l
+2024-11-13 09:13:05.769 CET [12544] DETALLE:  dueÃ±o de base de datos mydb
+	2 objetos en base de datos mydb
+2024-11-13 09:13:05.769 CET [12544] SENTENCIA:  DROP ROLE miusuario;
+2024-11-13 09:13:17.791 CET [4884] LOG:  empezando checkpoint: immediate force wait
+2024-11-13 09:13:17.811 CET [4884] LOG:  checkpoint completo: escritos 4 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.003 s, sync=0.005 s, total=0.020 s; archivos sincronizados=4, más largo=0.002 s, promedio=0.002 s; distancia=2 kB, estimación=2451 kB; lsn=0/1FBA9D8, lsn de redo=0/1FBA980
+2024-11-13 09:18:17.799 CET [4884] LOG:  empezando checkpoint: time
+2024-11-13 09:20:03.759 CET [4884] LOG:  checkpoint completo: escritos 978 búfers (6.0%); 0 archivos WAL añadidos, 0 eliminados, 1 reciclados; write=105.682 s, sync=0.263 s, total=105.961 s; archivos sincronizados=306, más largo=0.003 s, promedio=0.001 s; distancia=4550 kB, estimación=4550 kB; lsn=0/242C2E8, lsn de redo=0/242C258
+2024-11-13 13:06:48.026 CET [12512] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-11-13 13:06:48.026 CET [14524] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-11-13 13:06:48.026 CET [7372] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054

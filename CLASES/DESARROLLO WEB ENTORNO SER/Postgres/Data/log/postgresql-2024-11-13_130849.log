@@ -1,0 +1,22 @@
+2024-11-13 13:08:49.891 CET [4728] LOG:  el sistema de bases de datos fue apagado en 2024-11-13 13:08:09 CET
+2024-11-13 13:13:49.887 CET [4712] LOG:  empezando checkpoint: time
+2024-11-13 13:13:49.903 CET [4712] LOG:  checkpoint completo: escritos 3 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.004 s, sync=0.003 s, total=0.018 s; archivos sincronizados=2, más largo=0.002 s, promedio=0.002 s; distancia=0 kB, estimación=0 kB; lsn=0/242C4A0, lsn de redo=0/242C448
+2024-11-14 09:22:04.948 CET [4712] LOG:  empezando checkpoint: time
+2024-11-14 09:22:05.068 CET [4712] LOG:  checkpoint completo: escritos 2 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.109 s, sync=0.004 s, total=0.120 s; archivos sincronizados=2, más largo=0.003 s, promedio=0.002 s; distancia=3 kB, estimación=3 kB; lsn=0/242D3F0, lsn de redo=0/242D398
+2024-11-14 09:52:04.086 CET [4712] LOG:  empezando checkpoint: time
+2024-11-14 09:52:10.082 CET [4712] LOG:  checkpoint completo: escritos 56 búfers (0.3%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=5.941 s, sync=0.046 s, total=5.997 s; archivos sincronizados=45, más largo=0.003 s, promedio=0.001 s; distancia=174 kB, estimación=174 kB; lsn=0/2458CD8, lsn de redo=0/2458C48
+2024-11-14 10:42:04.152 CET [4712] LOG:  empezando checkpoint: time
+2024-11-14 10:42:05.490 CET [4712] LOG:  checkpoint completo: escritos 13 búfers (0.1%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=1.314 s, sync=0.014 s, total=1.339 s; archivos sincronizados=11, más largo=0.003 s, promedio=0.002 s; distancia=51 kB, estimación=161 kB; lsn=0/2465A58, lsn de redo=0/2465A00
+2024-11-14 10:47:04.491 CET [4712] LOG:  empezando checkpoint: time
+2024-11-14 10:47:09.238 CET [4712] LOG:  checkpoint completo: escritos 45 búfers (0.3%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=4.694 s, sync=0.042 s, total=4.748 s; archivos sincronizados=40, más largo=0.003 s, promedio=0.002 s; distancia=155 kB, estimación=161 kB; lsn=0/248C7C0, lsn de redo=0/248C730
+2024-11-14 11:02:04.247 CET [4712] LOG:  empezando checkpoint: time
+2024-11-14 11:02:08.927 CET [4712] LOG:  checkpoint completo: escritos 44 búfers (0.3%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=4.630 s, sync=0.040 s, total=4.680 s; archivos sincronizados=39, más largo=0.002 s, promedio=0.002 s; distancia=183 kB, estimación=183 kB; lsn=0/24BA538, lsn de redo=0/24BA4A8
+2024-11-14 11:17:20.852 CET [4300] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-11-14 12:12:04.965 CET [4712] LOG:  empezando checkpoint: time
+2024-11-14 12:12:09.405 CET [4712] LOG:  checkpoint completo: escritos 42 búfers (0.3%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=4.392 s, sync=0.037 s, total=4.440 s; archivos sincronizados=38, más largo=0.003 s, promedio=0.001 s; distancia=182 kB, estimación=183 kB; lsn=0/24E7D88, lsn de redo=0/24E7CF8
+2024-11-14 12:25:03.973 CET [7732] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-11-14 12:25:03.976 CET [9224] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-11-14 12:25:03.976 CET [11996] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-11-14 12:25:03.977 CET [5380] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-11-14 12:25:03.979 CET [7632] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-11-14 12:25:03.981 CET [1476] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
